@@ -44,4 +44,4 @@ def nytimesFormat (trend):
 for location in results:
 	for trend in location["trends"]:
 		new_trend = nytimesFormat(trend["name"])
-		print trend["name"]+','+new_trend+','+str(trend["tweet_volume"])+','+location['locations'][0]['name']
+		print trend["name"]+","+new_trend+","+str(trend["tweet_volume"])+","+location['locations'][0]['name']
